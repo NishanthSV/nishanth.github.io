@@ -137,7 +137,7 @@
 					<div class="section-heading">
 						<h2>About <strong>Me</strong></h2>
 					</div>
-					<p class="lead">As a highly proficient Software Engineer, I bring a robust background in Computer Science, specializing in cutting-edge Machine Learning and Software Engineering. Graduating from PSG College of Technology, Coimbatore, I've undertaken coursework in AI and Data Analytics, fostering a keen interest in solving intricate problems through innovative technology.</p>
+					<p class="mb-5">As a highly proficient Software Engineer, I bring a robust background in Computer Science, specializing in cutting-edge Machine Learning and Software Engineering. Graduating from PSG College of Technology, Coimbatore, I've undertaken coursework in AI and Data Analytics, fostering a keen interest in solving intricate problems through innovative technology.</p>
 					<p class="mb-5">Throughout my 3.5 years of experience, I have designed and implemented state-of-the-art Deep Learning pipelines. My accomplishments include crafting custom regression models that significantly enhance inference speed. My expertise encompasses diverse skills such as Computer Vision, Time Series Analysis, NLP, and more.</p>
 					<p>
 						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
@@ -169,7 +169,7 @@
 						</span>
 						<h3 class="mb-4">Data Science & Analytics</h3>
 						<p>Developed and deployed ARIMA and LSTM models for forecasting product yield of Intel ICs, achieving high accuracy and supporting production planning. Implemented LLM-based automation for data migration from SAP Hana to Snowflake using the Mistral model, enabling seamless conversion of Hana Schema to Snowflake SQL queries efficiently.</p>
-						<p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+						<!-- <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
 					</div>
 				</div>
 	
@@ -180,7 +180,7 @@
 						</span>
 						<h3 class="mb-4">Machine Learning Engineering</h3>
 						<p>Architected scalable MLOps pipelines with PyTorch and TensorFlow frameworks, achieving 3x improvement in training ML models. Spearheaded the development of a US healthcare-sanctioned pose estimation dataset with over 2M samples, revolutionizing predictions for Alzheimer's disease and fall detection. Engineered cutting-edge CNN and LSTM models for various applications.</p>
-						<p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+						<!-- <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
 					</div>
 				</div>
 	
@@ -191,7 +191,7 @@
 						</span>
 						<h3 class="mb-4">Innovative Projects</h3>
 						<p>Developed applications like facial expression recognition in cartoons and smart home automation systems. Optimized deep learning models for specific hardware using Neural Architectural Search, achieving a 2x reduction in inference time. Enhanced automation systems with real-time monitoring and notification capabilities, improving user safety and efficiency.</p>
-						<p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+						<!-- <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
 					</div>
 				</div>
 	
@@ -202,7 +202,7 @@
 						</span>
 						<h3 class="mb-4">Big Data Solutions</h3>
 						<p>Designed robust data pipelines and implemented scalable architectures for processing massive datasets. Leveraged tools like Apache Spark and Snowflake to streamline data analytics workflows and deliver actionable insights. Enhanced operational efficiency through data-driven decision-making processes.</p>
-						<p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+						<!-- <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
 					</div>
 				</div>
 	
@@ -213,7 +213,7 @@
 						</span>
 						<h3 class="mb-4">Tech Consulting</h3>
 						<p>Provided expert consultation to businesses on leveraging AI/ML technologies to solve complex challenges. Delivered strategic guidance for integrating machine learning into existing workflows, ensuring seamless adoption and measurable improvements. Facilitated workshops to educate teams on emerging AI trends</p>
-						<p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
+						<!-- <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p> -->
 					</div>
 				</div>
 	
@@ -299,22 +299,22 @@
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-					<form action="" class="site-form">
+					<form action="send_email.php" method="POST" class="site-form">
 						<h3 class="mb-5">Get In Touch</h3>
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+							<input type="text" name="name" class="form-control px-3 py-4" placeholder="Your Name" required>
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+							<input type="email" name="email" class="form-control px-3 py-4" placeholder="Your Email" required>
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+							<input type="text" name="phone" class="form-control px-3 py-4" placeholder="Your Phone">
 						</div>
 						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+							<textarea name="message" class="form-control px-3 py-4" cols="30" rows="10" placeholder="Write a Message" required></textarea>
 						</div>
 						<div class="form-group">
-							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+							<input type="submit" class="btn btn-primary px-4 py-3" value="Send Message">
 						</div>
 					</form>
 				</div>
@@ -384,4 +384,3 @@
     </body>
     </html>
 
-	
